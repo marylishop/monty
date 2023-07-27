@@ -8,6 +8,7 @@
 #include <string.h>
 #include <ctype.h>
 #include <ctype.h>
+bus_t bus = {NULL, NULL, NULL, 0};
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
