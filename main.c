@@ -1,5 +1,5 @@
 #include "monty.h"
-
+global_t var = {NULL, NULL, NULL, 0, 0};
 /**
  *  main -  interpreter for Monty ByteCodes files
  *  @argc: Number of paramethers
